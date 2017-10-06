@@ -1,0 +1,93 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomHexen.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "FLAT1";
+		overrideceilheight = false;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\Xavie\\Desktop\\GZDoom Builder Backups\\Sprites\\Strobe Lights\\StrobeTest.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 0;
+				location = "C:\\Games\\GZDoom\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource2
+			{
+				type = 0;
+				location = "C:\\Users\\Xavie\\Desktop\\GZDoom Builder Backups\\Sprites\\Strobe Lights\\StrobeLights.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource3
+			{
+				type = 0;
+				location = "C:\\Users\\Xavie\\Desktop\\GZDoom Builder Backups\\Sprites\\Fire\\Fire.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource4
+			{
+				type = 0;
+				location = "C:\\Users\\Xavie\\Desktop\\GZDoom Builder Backups\\Textures\\Hell\\CrucifiedCorpses.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaulttoptexture = "STARGR1";
+		overridemiddletexture = false;
+		viewpositionx = 832f;
+		viewpositiony = -320f;
+		viewscale = 1.456124f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		defaultceiltexture = "FLAT18";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "STARGR1";
+		defaultbottomtexture = "STARGR1";
+	}
+}
