@@ -1,0 +1,61 @@
+Actor D64Lamp1 30030
+{
+Radius 16
+Height 75
++SOLID
+States
+{
+Spawn:
+	D641 A -1 Bright
+	Stop
+}
+}
+Actor D64Lamp2 30031
+{
+Radius 16
+Height 60
++SOLID
+States
+{
+Spawn:
+	D642 A -1 Bright
+	Stop
+}
+}
+Actor D64Lamp3 30032
+{
+Radius 10
+Height 55
++SOLID
++SPAWNCEILING
++NOGRAVITY
+States
+{
+Spawn:
+	D643 A -1 Bright
+	Stop
+}
+}
+Actor D64Lamp4 30033
+{
+Radius 8
+Height 8
+-SOLID
++SPAWNCEILING
++NOGRAVITY
+States
+{
+Spawn:
+	D644 A -1 Bright
+	Stop
+}
+}
+
+
+
+
+
+
+
+
+

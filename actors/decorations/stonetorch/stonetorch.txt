@@ -1,0 +1,12 @@
+ACTOR StoneTorch 12320
+{
+  Radius 16
+  Height 64
+  +SOLID
+  States
+  {
+  Spawn:
+    STOR ABCDEFGHI 4
+    Loop
+  }
+}

@@ -1,0 +1,101 @@
+ACTOR FountainWater 19621
+{
+  Radius 2
+  Height 2
+  Scale 0.75
+  RenderStyle Translucent
+  Alpha 0.75
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    WFOU ABCD 3
+    Loop
+  }
+}
+
+ACTOR FountainNukage 19622
+{
+  Radius 2
+  Height 2
+  Scale 0.75
+  RenderStyle Translucent
+  Alpha 0.75
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    NFOU ABCD 3
+    Loop
+  }
+}
+
+ACTOR FountainBlood 19623
+{
+  Radius 2
+  Height 2
+  Scale 0.75
+  RenderStyle Translucent
+  Alpha 0.75
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    BFOU ABCD 3
+    Loop
+  }
+}
+
+ACTOR FountainWaterNoisy 13624
+{
+  Radius 2
+  Height 2
+  Scale 0.75
+  RenderStyle Translucent
+  Alpha 0.75
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    WFOU ABCD 3 A_PlaySound ("Fountain/Loop", CHAN_AUTO, 1.0, 1, 2)
+    Loop
+  }
+}
+
+ACTOR FountainNukageNoisy 13625
+{
+  Radius 2
+  Height 2
+  Scale 0.75
+  RenderStyle Translucent
+  Alpha 0.75
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    NFOU ABCD 3 A_PlaySound ("Fountain/Loop", CHAN_AUTO, 1.0, 1, 2)
+    Loop
+  }
+}
+
+ACTOR FountainBloodNoisy 13626
+{
+  Radius 2
+  Height 2
+  Scale 0.75
+  RenderStyle Translucent
+  Alpha 0.75
+  +NOBLOCKMAP
+  +MOVEWITHSECTOR
+  States
+  {
+  Spawn:
+    BFOU ABCD 3 A_PlaySound ("Fountain/Loop", CHAN_AUTO, 1.0, 1, 2)
+    Loop
+  }
+}

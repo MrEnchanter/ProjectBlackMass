@@ -1,0 +1,74 @@
+actor Corp01 3200
+{
+  radius 15
+  height 20
+  states
+  {
+  Spawn:
+    CORA A -1
+    Stop
+  }
+}
+
+actor Corp02 3201
+{
+  radius 15
+  height 20
+  states
+  {
+  Spawn:
+    CORB A -1
+    Stop
+  }
+}
+
+actor Corp03 3203
+{
+  radius 15
+  height 20
+  states
+  {
+  Spawn:
+    CORC A -1
+    Stop
+  }
+}
+
+actor Corp04 3204
+{
+  radius 15
+  height 20
+  states
+  {
+  Spawn:
+    CORD A -1
+    Stop
+  }
+}
+
+actor Corp05 3205
+{
+  radius 15
+  height 20
+  states
+  {
+  Spawn:
+    CORE A -1
+    Stop
+  }
+}
+
+actor Corp06 3206
+{
+  radius 15
+  height 20
+  states
+  {
+  Spawn:
+    CORF A -1
+    Stop
+  }
+}
+
+
+

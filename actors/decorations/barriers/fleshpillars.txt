@@ -1,0 +1,55 @@
+ACTOR FleshPillarPink 16000
+{
+  Radius 16
+  Height 128
+  +SOLID
+  States
+  {
+  Spawn:
+    MELF A -1
+    Stop
+  }
+}
+
+ACTOR FleshPillarTan 16001
+{
+  Radius 16
+  Height 128
+  +SOLID
+  States
+  {
+  Spawn:
+    MELF C -1
+    Stop
+  }
+}
+
+ACTOR FleshDanglingPink 16002
+{
+  Radius 16
+  Height 32
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    MELF B -1
+    Stop
+  }
+}
+
+ACTOR FleshDanglingTan 16003
+{
+  Radius 16
+  Height 32
+  +SOLID
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    MELF D -1
+    Stop
+  }
+}

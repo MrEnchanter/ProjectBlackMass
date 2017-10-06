@@ -1,0 +1,52 @@
+actor GutPyle 31482
+{
+	+SOLID
+	radius 128
+	height 57
+	
+	states
+	{
+	spawn:
+		PYLE A 0
+		Stop
+	}
+}
+
+actor GutPyleA 31483
+{
+	+SOLID
+	radius 64
+	height 75
+	states
+	{
+	spawn:
+		PYLE B 0
+		Stop
+	}
+}
+
+actor GutPyleB 31484
+{
+	+SOLID
+	radius 58
+	height 89
+	states
+	{
+	spawn:
+		PYLE C 0
+		Stop
+	}
+}
+
+actor GutPyleC 31485
+{
+	+SOLID
+	radius 64
+	height 29
+	states
+	{
+	spawn:
+		PYLE D 0
+		Stop
+	}
+}

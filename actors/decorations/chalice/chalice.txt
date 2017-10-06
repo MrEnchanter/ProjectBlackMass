@@ -1,0 +1,10 @@
+Actor BloodyChalice 23491
+{
+  +FloorClip
+  States
+  {
+  Spawn:
+    CHLC A -1
+	Stop
+  }
+}

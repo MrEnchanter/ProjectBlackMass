@@ -1,0 +1,134 @@
+Actor Chandelier1Off 10081
+{
+  Radius 10
+  Height 21
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    CHAN D -1
+    Stop
+  }
+}
+
+Actor Chandelier1On 10071
+{
+  Radius 10
+  Height 21
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    TNT1 A 0
+    TNT1 A 0 A_PlaySound("DSCHAFIR", CHAN_BODY, 0.3, 1)
+    CHAN ABC 4
+    Goto Spawn+2
+  }
+}
+
+Actor Chandelier2Off 10082
+{
+  Radius 10
+  Height 21
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    CHAN H -1
+    Stop
+  }
+}
+
+Actor Chandelier2On 10072
+{
+  Radius 10
+  Height 21
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    TNT1 A 0
+    TNT1 A 0 A_PlaySound("DSCHAFIR", CHAN_BODY, 0.3, 1)
+    CHAN EFG 4
+    Goto Spawn+2
+  }
+}
+
+Actor Chandelier3Off 10083
+{
+  Radius 10
+  Height 21
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    CHAN M -1
+    Stop
+  }
+}
+
+Actor Chandelier3On 10073
+{
+  Radius 10
+  Height 21
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    TNT1 A 0
+    TNT1 A 0 A_PlaySound("DSCHAFIR", CHAN_BODY, 0.3, 1)
+    CHAN IJL 4
+    Goto Spawn+2
+  }
+}
+
+Actor Chandelier4Off 10084
+{
+  Radius 10
+  Height 21
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    CHAN Q -1
+    Stop
+  }
+}
+
+Actor Chandelier4On 10074
+{
+  Radius 10
+  Height 21
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    TNT1 A 0
+    TNT1 A 0 A_PlaySound("DSCHAFIR", CHAN_BODY, 1.0, 1)
+    CHAN NOP 4
+    Goto Spawn+2
+  }
+}
+
+Actor FleshChandelier1 10075
+{
+  Radius 32
+  Height 95
+  +NOGRAVITY
+  +SPAWNCEILING
+  States
+  {
+  Spawn:
+    TNT1 A 0
+    FLSL A -1
+    Stop
+  }
+}

@@ -1,0 +1,109 @@
+//le Hellish tree variants by yours truly, Bloax.
+
+//Totally ordinary tree (Undamaged)
+
+Actor HellTree 31255 {
+  Radius 19
+  Height 61
+  Mass 5000
+  Scale 0.8
+  +SOLID
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR A -1
+	wait
+  }
+}
+
+//Scorched variants
+
+Actor HellTreeScorch1 : HellTree 31256 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR B -1
+	stop
+  }
+}
+
+Actor HellTreeScorch2 : HellTree 31257 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR C -1
+	stop
+  }
+}
+
+//Burned variants
+
+Actor HellTreeBurn1 : HellTree 31258 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR D -1
+	stop
+  }
+}
+
+Actor HellTreeBurn2 : HellTree 31259 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR E -1
+	stop
+  }
+}
+
+//Damaged (and scorched) variant
+
+Actor HellTreeScorch3 : HellTree 31260 { 
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR F -1
+	stop
+  }
+}
+
+Actor HellTreeBurn3 : HellTree 31261 { //Burned down (top) variant
+  Radius 15
+  Height 46
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR G -1
+	stop
+  }
+}
+
+Actor FleshTree1 : HellTree 31262 { //Blood tree, grown using >90% pure human blood!
+  Radius 32
+  Height 89
+  Scale 1
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR H -1
+	stop
+  }
+}
+
+Actor FleshTree2 : FleshTree1 31263 { //Flesh tree, grown on live humans! (Lots of agony was delivered!)
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR I -1
+	stop
+  }
+}
+
+Actor FleshTree3 : FleshTree1 31263 { //Skin tree, grown on dead waste. (Nice for cleaning the mess!)
+  States {
+  Spawn:
+	TNT1 A 0
+	HETR J -1
+	stop
+  }
+}

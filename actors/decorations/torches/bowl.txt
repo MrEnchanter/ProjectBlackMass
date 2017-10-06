@@ -1,0 +1,12 @@
+ACTOR FireBowl 12567
+{
+	Radius 16
+	Height 44
+	+SOLID
+	States
+	{
+	Spawn:
+		FBWL ABCDEFGH 3 Bright
+		Loop
+	}
+}

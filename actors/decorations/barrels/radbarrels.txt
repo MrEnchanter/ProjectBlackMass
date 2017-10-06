@@ -1,0 +1,25 @@
+actor soundbarrel 16845
+{radius 8
+height 29
++solid
+states{
+ spawn:
+  BARR ABCD 4
+  TNT1 A 0 a_playsound("radioactivebarrel/detected",0,0.2,true,attn_static)
+  loop}}
+actor emptybarrel 16946
+{radius 8
+height 29
++solid
+states{
+ spawn:
+  BARR E -1
+  stop}}
+actor radioactivebarrel 16947
+{radius 8
+height 29
++solid
+states{
+ spawn:
+  BARR ABCD 4
+  loop}}

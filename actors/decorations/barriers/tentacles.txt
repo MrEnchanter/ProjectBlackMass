@@ -1,0 +1,43 @@
+actor RaisingTentacleBarrier 32650
+{
+    Health 10000000000
+    Radius 12
+    Height 100
+    Mass 100000000
+    MONSTER
+    //+DORMANT
+    SeeSound "tentacle/raise"
+    States
+    {
+    Spawn:
+       TNT1 A 1 A_Look
+       Loop
+    See:
+       TENT ABC 4
+       TENT D 4
+       TENT D 0 A_SpawnItem("TentacleBarrier")
+    Death:
+       TNT1 A 1 A_NoBlocking
+       Stop
+    }
+}
+
+actor TentacleBarrier 32651
+{
+    Health 20
+    Radius 10
+    Height 136
+    Speed 0
+    Mass 100000000
+    +SOLID
+    +SHOOTABLE
+    States
+    {
+    Spawn:
+       TENT EFG 5
+       Loop
+    }
+}
+
+//>inb4 ive seen enough hentai to know where this goes
+//>inb4 project hdoom tentacle edition

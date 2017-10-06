@@ -1,0 +1,9 @@
+//Sound Sequences//
+
+//Hell Door
+:HellDoor
+
+	door    1
+	play HELLDR01
+	nostopcutoff
+end

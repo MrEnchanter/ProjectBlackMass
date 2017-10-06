@@ -1,0 +1,29 @@
+ACTOR ChaosSphereHolder 11666
+{
+	Radius 16
+	Height 30
+	Scale 0.45
+	+SOLID
+	States
+	{
+	Spawn:
+		CHOL A 1
+		CHOL A 1 A_SpawnItemEx("ChaosSphere", 0.2, 0, 28)
+		CHOL A -1
+		Stop
+	}
+}
+
+ACTOR ChaosSphere 11667
+{
++Nogravity
+Scale 0.3
+Height 24
+Radius 16
+   States
+   {
+   Spawn:
+      CHAO ABCDEFG 2
+      LOOP
+	  }
+	  }

@@ -1,0 +1,174 @@
+Actor BreakableVase1 10001
+{
+  Radius 10
+  Height 48
+  Health 20
+  +Solid
+  +shootable
+  +noblood
+  +dontgib
+  +noicedeath
+  DeathSound "Pot/Break"
+  States
+  {
+  Spawn:
+    EGIP A -1
+    Stop
+  Death:
+    NULL A 0 A_Scream
+    EGIK B 6
+    EGIK A 6
+    Wait
+  }
+}
+
+Actor BreakableVase2 10002
+{
+  Radius 10
+  Height 40
+  Health 20
+  +Solid
+  +shootable
+  +noblood
+  +dontgib
+  +noicedeath
+  DeathSound "Pot/Break"
+  States
+  {
+  Spawn:
+    EGIP B -1
+    Stop
+  Death:
+    NULL A 0 A_Scream
+    EGIK C 6
+    EGIK D 6
+    Wait
+  }
+}
+
+Actor BreakableVase3 10003
+{
+  Radius 10
+  Height 28
+  Health 20
+  +Solid
+  +shootable
+  +noblood
+  +dontgib
+  +noicedeath
+  DeathSound "Pot/Break"
+  States
+  {
+  Spawn:
+    EGIP C -1
+    Stop
+  Death:
+    NULL A 0 A_Scream
+    EGIK F 6
+    EGIK E 6
+    Wait
+  }
+}
+
+Actor BreakableVase4 10004
+{
+  Radius 10
+  Height 32
+  Health 20
+  +Solid
+  +shootable
+  +noblood
+  +dontgib
+  +noicedeath
+  DeathSound "Pot/Break"
+  States
+  {
+  Spawn:
+    EGIP F -1
+    Stop
+  Death:
+    NULL A 0 A_Scream
+    EGIK G 6
+    Wait
+  }
+}
+
+Actor Vase1 10011
+{
+  Radius 10
+  Height 48
+  +Solid
+  States
+  {
+  Spawn:
+    EGIP A -1
+    Stop
+  }
+}
+
+Actor Vase2 10012
+{
+  Radius 10
+  Height 40
+  +Solid
+  States
+  {
+  Spawn:
+    EGIP B -1
+    Stop
+  }
+}
+
+Actor Vase3 10013
+{
+  Radius 10
+  Height 28
+  +Solid
+  States
+  {
+  Spawn:
+    EGIP C -1
+    Stop
+  }
+}
+
+
+Actor Vase4 10014
+{
+  Radius 5
+  Height 16
+  +Solid
+  States
+  {
+  Spawn:
+    EGIP D -1
+    Stop
+  }
+}
+
+Actor Vase5 10015
+{
+  Radius 6
+  Height 12
+  +Solid
+  States
+  {
+  Spawn:
+    EGIP E -1
+    Stop
+  }
+}
+
+
+Actor Vase6 10016
+{
+  Radius 10
+  Height 32
+  +Solid
+  States
+  {
+  Spawn:
+    EGIP F -1
+    Stop
+  }
+}

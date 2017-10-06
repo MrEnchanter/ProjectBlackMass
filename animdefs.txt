@@ -1,0 +1,4 @@
+//Animation Definitions//
+
+WARP texture AWCFA0B0 .25
+WARP texture AWCFC0D0 .25

@@ -1,0 +1,29 @@
+ACTOR WasteBin 31771
+{
+  Game Doom
+  Radius 8
+  Height 24
+  Scale .5
+  +SOLID
+  States
+  {
+  Spawn:
+    WBIN A -1
+    Stop
+  }
+}
+
+ACTOR WasteBinFilthy 31772
+{
+  Game Doom
+  Radius 8
+  Height 24
+  Scale .5
+  +SOLID
+  States
+  {
+  Spawn:
+    WBIN B -1
+    Stop
+  }
+}

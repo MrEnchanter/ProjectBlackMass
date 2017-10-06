@@ -1,0 +1,13 @@
+Actor PSXBloodyChain 32701
+{
+	Radius 16
+	Height 88
+	+NOGRAVITY
+	+SPAWNCEILING
+	States
+	{
+	Spawn:
+		BLCH A -1
+		Stop
+	}
+}

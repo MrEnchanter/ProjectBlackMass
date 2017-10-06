@@ -1,0 +1,475 @@
+//Open GL Definitions//
+
+////OBJECTS////
+
+//Fire
+Flickerlight FireSpawnerSmall
+{
+Color 1.0 0.6 0.0
+Size 32
+SecondarySize 48
+Chance 0.6
+}
+
+Flickerlight FireSpawnerMedium
+{
+Color 1.0 0.6 0.0
+Size 56
+SecondarySize 72
+Chance 0.6
+}
+
+Flickerlight FireSpawnerLarge
+{
+Color 1.0 0.6 0.0
+Size 80
+SecondarySize 128
+Chance 0.6
+}
+
+Object SmallFlame { Frame TNT1 { Light FireSpawnerSmall } }
+Object MediumFlame { Frame TNT1 { Light FireSpawnerMedium } }
+Object LargeFlame { Frame TNT1 { Light FireSpawnerLarge } }
+
+//Chandeliers
+Flickerlight Chandelier
+{
+Color 1.0 0.6 0.0
+Size 102
+SecondarySize 72
+Chance 0.6
+}
+
+Flickerlight Chandelier2
+{
+Color 1.0 0.6 0.0
+Size 96
+SecondarySize 64
+Chance 0.6
+}
+
+Flickerlight Chandelier3
+{
+Color 1.0 0.6 0.0
+Size 80
+SecondarySize 58
+Chance 0.6
+}
+
+object Chandelier1On
+{
+        frame CHANA { light Chandelier }
+	frame CHANB { light Chandelier2 }
+	frame CHANC { light Chandelier3 }
+}
+
+object Chandelier2On
+{
+        frame CHANE { light Chandelier }
+	frame CHANF { light Chandelier2 }
+	frame CHANG { light Chandelier3 }
+}
+
+
+object Chandelier3On
+{
+        frame CHANI { light Chandelier }
+	frame CHANJ { light Chandelier2 }
+	frame CHANL { light Chandelier3 }
+}
+
+object Chandelier4On
+{
+        frame CHANN { light Chandelier }
+	frame CHANO { light Chandelier2 }
+	frame CHANP { light Chandelier3 }
+}
+
+//Black Torch
+flickerlight2 FIREBRAZ
+{
+color 1.0 0.8 0.0
+size 148
+secondarySize 128
+interval 0.1
+offset 0 48 0
+}
+
+object BlackTorch
+{
+frame BTOR { light FIREBRAZ }
+}
+
+//Stone Torch
+flickerlight2 STONETORCH
+{
+    color 1.0 0.7 0.0
+    size 80
+    secondarySize 64
+    interval 0.1
+    offset 0 56 0
+}
+
+object StoneTorch
+{
+    frame STOR { light STONETORCH }
+}
+
+//Chaos Sphere
+PulseLight ChaosSphere
+{
+Color 10.0 10.0 10.0
+Size 50
+SecondarySize 56
+Interval 1.0
+}
+
+Object ChaosSphere
+{
+Frame CHAO { Light ChaosSphere }
+}
+
+//Fire Statues
+flickerlight PillarLight
+{
+	COLOR 1 0.9 .3
+	size 48
+	secondarySize 56
+	chance 0.5
+}
+
+Object RustedFirePillar
+{
+	Frame RSPR { light PillarLight }
+}
+
+Object IceFirePillar
+{
+	Frame ICPR { light PillarLight }
+}
+
+Object SerpentFire
+{
+	Frame KGFR { light PillarLight }
+}
+
+//Wall Torches
+
+flickerlight2 BLUEWALLTORCH
+{
+    color 0.0 0.0 1.0
+    size 24
+    secondarySize 28
+    interval 0.1
+    offset 0 24 0
+}
+
+flickerlight2 REDWALLTORCH
+{
+    color 1.0 0.3 0.0
+    size 24
+    secondarySize 28
+    interval 0.1
+    offset 0 24 0
+}
+
+flickerlight2 GREENWALLTORCH
+{
+    color 0.0 1.0 0.0
+    size 24
+    secondarySize 28
+    interval 0.1
+    offset 0 24 0
+}
+
+object BlueWallTorch
+{
+    frame BWTR { light BLUEWALLTORCH }
+}
+
+object RedWallTorch
+{
+    frame YWTR { light REDWALLTORCH }
+}
+
+object GreenWallTorch
+{
+    frame GWTR { light GREENWALLTORCH }
+}
+
+//Marble Brazier
+
+FlickerLight MTORCH_1
+{
+Color 1.0 1.0 0.0
+Size 34
+SecondarySize 38
+Chance 0.3
+Offset 0 30 0
+}
+
+FlickerLight MTORCH_2
+{
+Color 1.0 1.0 0.0
+Size 38
+SecondarySize 42
+Chance 0.3
+Offset 0 30 0
+}
+
+FlickerLight MTORCH_3
+{
+Color 1.0 1.0 0.0
+Size 36
+SecondarySize 40
+Chance 0.3
+Offset 0 30 0
+}
+
+Object MarbleBrazier
+{
+Frame HBBQA { Light MTORCH_1 }
+Frame HBBQB { Light MTORCH_2 }
+Frame HBBQC { Light MTORCH_3 }
+}
+
+//Doom 64 Lamps
+
+PointLight D64A
+{
+	color 0.5 0.5 0.3
+	size 20
+}
+PointLight D64B
+{
+	color 0.5 0.5 0.3
+	size 26
+}
+PointLight D64C
+{
+	color 0.5 0.5 0.3
+	size 32
+}
+PointLight D64D
+{
+	color 0.5 0.5 0.3
+	size 38
+}
+
+
+Object D64Lamp1
+{
+Frame D641 { Light D64D }
+}
+
+Object D64Lamp2
+{
+Frame D642 { Light D64C }
+}
+
+Object D64Lamp3
+{
+Frame D643 { Light D64B }
+}
+
+Object D64Lamp4
+{
+Frame D644 { Light D64A }
+}
+
+//Fire Bowl
+
+flickerlight2 FIREBRAZ_Copy
+{
+    color 1.0 0.8 0.0
+    size 68
+    secondarySize 76
+    interval 0.1
+    offset 0 48 0
+}
+
+object FireBowl
+{
+    frame FBWL { light FIREBRAZ_Copy }
+}
+
+//Strobe Lights
+pointlight BLUESTROBE
+{
+    color 0.0 0.0 0.4
+    size 48
+}
+
+object StrobeRayBlue
+{
+    frame BAL1C { light BLUESTROBE }
+}
+
+pointlight GREENSTROBE
+{
+    color 0.0 0.4 0.0
+    size 48
+}
+
+object StrobeRayGreen
+{
+    frame BAL1C { light GREENSTROBE }
+}
+
+pointlight REDSTROBE
+{
+    color 0.4 0.0 0.0
+    size 48
+}
+
+object StrobeRayRed
+{
+    frame BAL1C { light REDSTROBE }
+}
+
+pointlight YELLOWSTROBE
+{
+    color 0.4 0.2 0.0
+    size 48
+}
+
+object StrobeRayYellow
+{
+    frame BAL1C { light YELLOWSTROBE }
+}
+
+//Shrooms
+pointlight LARGEGLOWSHROOM
+{
+    color 0.0 1.0 0.0
+    size 32
+    offset 0 12 0
+}
+
+pointlight SMALLGLOWSHROOM
+{
+    color 0.0 1.0 0.0
+    size 16
+    offset 0 6 0
+}
+
+object LargeGlowingMushroom
+{
+    frame GLOM { light LARGEGLOWSHROOM }
+}
+
+object SmallGlowingMushroom
+{
+    frame GLLM { light SMALLGLOWSHROOM }
+}
+
+////OBJECTS////
+
+////BRIGHTMAPS////
+
+brightmap texture HLPENTG2
+{
+   map "graphics/brightmaps/HLPENTG2BM.png"
+}
+
+brightmap texture HLLAVA
+{
+   map "graphics/brightmaps/HLLAVABM.png"
+}
+
+brightmap sprite BTORA0
+{
+	map "graphics/brightmaps/BTORA0BM.png"
+}
+
+brightmap sprite BTORB0
+{
+	map "graphics/brightmaps/BTORB0BM.png"
+}
+
+brightmap sprite BTORC0
+{
+	map "graphics/brightmaps/BTORC0BM.png"
+}
+
+brightmap sprite BTORD0
+{
+	map "graphics/brightmaps/BTORD0BM.png"
+}
+
+brightmap sprite BTORE0
+{
+	map "graphics/brightmaps/BTORE0BM.png"
+}
+
+brightmap sprite BTORF0
+{
+	map "graphics/brightmaps/BTORF0BM.png"
+}
+
+brightmap sprite BTORG0
+{
+	map "graphics/brightmaps/BTORG0BM.png"
+}
+
+brightmap sprite BTORH0
+{
+	map "graphics/brightmaps/BTORH0BM.png"
+}
+
+brightmap sprite STORA0
+{
+	map "graphics/brightmaps/STORA0BM.png"
+}
+
+brightmap sprite STORB0
+{
+	map "graphics/brightmaps/STORB0BM.png"
+}
+
+brightmap sprite STORC0
+{
+	map "graphics/brightmaps/STORC0BM.png"
+}
+
+brightmap sprite STORD0
+{
+	map "graphics/brightmaps/STORD0BM.png"
+}
+
+brightmap sprite STORE0
+{
+	map "graphics/brightmaps/STORE0BM.png"
+}
+
+brightmap sprite STORF0
+{
+	map "graphics/brightmaps/STORF0BM.png"
+}
+
+brightmap sprite STORG0
+{
+	map "graphics/brightmaps/STORG0BM.png"
+}
+
+brightmap sprite STORH0
+{
+	map "graphics/brightmaps/STORH0BM.png"
+}
+
+brightmap sprite STORI0
+{
+	map "graphics/brightmaps/STORI0BM.png"
+}
+
+////Skybox Definitions
+
+Skybox 666Skybox
+{
+  666sk_lf
+  666sk_bk
+  666sk_rt
+  666sk_ft
+  666sk_up
+  666sk_dn
+}

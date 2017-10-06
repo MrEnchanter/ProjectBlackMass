@@ -1,0 +1,195 @@
+//Credits//
+
+//Ceramic Pots
+Name: Ceramic Vases
+Connection: None
+Palette: Hexen
+Summon: Breakable Vase 1-4, Vase 1-6
+Ambient Sound: N/A (Break)
+De-/Activatable: N/A
+Destroyable: Yes
+Special Effects: N/A
+ACS: N/A
+
+Decorate: Yuyu3
+Sounds: Hexen
+Sprites: Hexen, Raven Software, Id Software
+Sprite Edit: Yuyu3
+//Ceramic Pots
+
+
+
+//Gore
+Name: Gore Pack
+Connection: None
+Palette: Doom
+Summon: Bone1, Bone2, BrainMush, GoreChunk1, GoreChunk2, GoreChunk3,
+        EyeBall, Organ1, Organ2, RibCage, SpinalCord, Organs, Torso
+Ambient Sound: None
+De-/Activatable: N/A
+Destroyable: No
+Special Effects: None
+
+Credits: Monolith Productions, 3D Realms, Captain Awesome, Hayabusa, Lucario
+Decorate: Lucario, Captain Awesome
+Sprites: Blood by Monolith Productions, Duke Nukem 3D: Atomic Edition and Shadow Warrior by 3D Realms
+Sprite Edit: Captain Awesome
+//Gore
+
+
+
+//Fog
+Name: Fog Spawner
+Connections: None
+Spawn Offsets: Arguments
+Documentation: Yes
+Spawn Ceiling: No
+Variants: 0
+Summon: FogCloud_Generator
+ACS: No
+
+Decorate: Tormentor667, zrrion the insect
+Sounds: None
+Sprites: zrrion the insect
+//Fog
+
+
+
+//Chandeliers
+Name: Chandelier Pack
+Connection: No
+Palette: Doom(PNG)
+Summon: Chandelier[1-4]Switchable * +, Chandelier[1-4]Off, Chandelier[1-4]On *
+Ambient Sound: Those with "*" have Ambient Sound
+De-/Activatable: Those with "+" Are De-/Activatable
+Destroyable: No
+Special Effects: No
+ACS: No
+
+Submitted: TODM, Blue Shadow
+Decorate: TODM, Blue Shadow (Edit)
+GLDefs: TODM, bravo (Worked of his Original)
+Sounds: Petrilla Entertainment
+Sprites: Hexen
+Sprite Edit: TODM
+Idea Base: bravos Original Entry
+//Chandeliers
+
+
+
+//Black Torch
+Information:
+Name: Black Torch
+Palette: PNG
+Summon: BlackTorch
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No
+
+Credits:
+Submitted: Gothic
+Decorate: Gothic
+GLDefs: Gzdoom
+Sprites: Konami, Raven Software
+Sprite Edit: Gothic
+//Black Torch
+
+
+
+//Stone Torch
+Name: Stone Torch
+Connection: "ignite" (Hexen sndinfo)
+Palette: Hexen
+Summon: StoneTorch
+Ambient Sound: No
+De-/Activatable: Yes
+Destroyable: No
+Special Effects: No
+
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Gldefs: Captain Toenail
+Sprites: Necrodome
+SpriteEdit: Captain Toenail
+//Stone Torch
+
+
+
+//Rocks
+Name: Necrodome Rocks
+Connection: No
+Palette: Custom
+Summon: NRock[1-10], NRock[1-10]small
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No
+Brightmaps: No
+ACS: No
+
+Submitted: Captain Toenail
+Decorate: Captain Toenail
+Sprites: Necrodome
+//Rocks
+
+
+
+//Chaos Sphere//
+Name: ChaosSphere
+Connection: Hexen Ending Screen
+Palette: Custom
+Summon: Chaossphereholder
+Ambient Sound: No
+De-/Activatable: No
+Destroyable: No
+Special Effects: No
+ACS: No
+
+Submitted: Salahmander
+Decorate: Salahmander
+Sprites: EttinGrinder, Salahmander, MagicWazard
+//Chaos Sphere//
+
+
+
+//Doom Statues//
+Name: Doom Statues
+Connection: none
+Palette: Custom
+Summon: DoomStatue1 - DoomStatue24
+Ambient Sound: N/A
+De-/Activatable: no
+Destroyable: no
+Special Effects: no
+ACS: no
+
+Submitted: MagicWazard
+Decorate: JMAA
+GLDefs: N/A
+Sounds: N/A
+Sprites: Raven Software, id Software
+Sprite Edit: JMAA, MagicWazard (Statues); Captain Toenail, Gez, ShadesMaster, Shtbag667 (Column Variants)
+Idea Base: Statues from Hexen, Marble Column variants
+//Doom Statues//
+
+
+
+//Chasm Font//
+Name: Chugga Chug
+Type: BigFont
+Format: FONTDEFS
+Variants: 1
+Replaces: No
+Size: 12
+Paletted: Yes (Chasm: The Rift)
+Lower-cases: No
+Individual glyphs: Yes
+Standard GFX included: No
+
+The menu font from Chasm: The Rift.
+
+Submitted: zrrion the insect
+Author: Action Forms, zrrion the insect
+Original font: The menu font from Chasm: The Rift
+//Chasm Font//

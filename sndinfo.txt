@@ -1,0 +1,62 @@
+//Sound Info//
+
+//Ceramic Pots
+Pot/Break      POTBRK
+
+//Fire
+SFX/FireStart	FIRESTRT
+SFX/FireLoop1	FIRELOP1
+SFX/FireLoop2	FIRELOP2
+SFX/FireLoop3	FIRELOP3
+SFX/FireDie	FIREDIE
+
+$Limit SFX/FireStart	0
+$Limit SFX/FireLoop	0
+$Limit SFX/FireDie	0
+
+//Lightning
+$random thunder/hit { thunder/hit1 thunder/hit2 }
+thunder/hit1 THNDS01
+thunder/hit2 THNDS02
+
+//Chandelier
+DSCHAFIR DSCHAFIR
+
+//Tentacles
+tentacle/raise		dstenup
+
+//Fountains
+Fountain/Loop	DSWFOUNT
+
+//Stanic Voice
+THIS_IS_ THIS_IS_
+YOU_CAN_ YOU_CAN_
+YOU_THIN YOU_THIN
+YOUR_RES YOUR_RES
+
+//Hell Door
+HELLDR01	HELLDR01
+
+PILRGLSS PILRGLSS
+PILRGLSB PILRGLSB
+
+//Breakables
+$RANDOM PillarGlassBreak {PILRGLSS PILRGLSB}
+
+FLORGLS1 FLORGLS1
+FLORGLS2 FLORGLS2
+
+$RANDOM GlassShardImpact {FLORGLS1 FLORGLS2}
+
+//Steam
+Steam/Loop	STEMLOOP
+Steam/Fire	STEMFIRE
+
+//Radioactive Barrels
+radioactivebarrel/detected dsdetect
+
+//Zapper
+Zapper/Loop	ZAPRLOOP
+
+//Beakers
+tubes/break TSTTB

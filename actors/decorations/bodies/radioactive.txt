@@ -1,0 +1,47 @@
+Actor RadioactiveCorpse1 21541
+{
+  Radius 4
+  Height 1
+  States
+  {
+  Spawn:
+    ZOCR A -1 bright
+    Stop
+  }
+}
+
+Actor RadioactiveCorpse2 21542
+{
+  Radius 4
+  Height 1
+  States
+  {
+  Spawn:
+    ZOCR B -1 bright
+    Stop
+  }
+}
+
+Actor RadioactiveCorpse3 21543
+{
+  Radius 4
+  Height 1
+  States
+  {
+  Spawn:
+    ZOCR C -1 bright
+    Stop
+  }
+}
+
+Actor RadioactiveCorpse4 21544
+{
+  Radius 4
+  Height 1
+  States
+  {
+  Spawn:
+    ZOCR D -1 bright
+    Stop
+  }
+}

@@ -1,0 +1,38 @@
+ACTOR SerpentFire 27080
+{
+	Radius 23
+	Height 92
+	+SOLID
+	States
+	{
+	Spawn:
+		KGFR ABCDEFGH 3 Bright
+		Loop
+	}
+}
+
+ACTOR RustedFirePillar 27081
+{
+	Radius 23
+	Height 92
+	+SOLID
+	States
+	{
+	Spawn:
+		RSPR ABCDEFGH 3 Bright
+		Loop
+	}
+}
+
+ACTOR IceFirePillar 27082
+{
+	Radius 23
+	Height 92
+	+SOLID
+	States
+	{
+	Spawn:
+		ICPR ABCDEFGH 3 Bright
+		Loop
+	}
+}

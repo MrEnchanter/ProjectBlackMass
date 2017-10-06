@@ -1,0 +1,11 @@
+Actor Bible 29497
+{
+  +FloorClip
+  Scale 0.4
+  States
+  {
+  Spawn:
+    BIBL A -1
+    Stop
+  }
+}

@@ -1,0 +1,12 @@
+Actor MarbleBrazier 12566
+{
+Radius 20
+Height 32
++SOLID
+States
+{
+Spawn:
+	HBBQ ABC 4 Bright
+	Loop
+}
+}
