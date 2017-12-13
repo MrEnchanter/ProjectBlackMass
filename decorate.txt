@@ -36,3 +36,6 @@
 #include "actors/decorations/trees/hellgrowth.txt"
 #include "actors/decorations/bodies/radioactive.txt"
 #include "actors/decorations/pipes/pipes.txt"
+#include "actors/decorations/glasshards/NJshards.txt"
+#include "actors/decorations/glasshards/sargeshards.txt"
+#include "actors/decorations/wirekit/repairkit.txt"

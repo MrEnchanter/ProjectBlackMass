@@ -1,0 +1,39 @@
+ACTOR LargeGlassParticle1: GlassShard
+{
+Renderstyle Add
+Scale 0.3
+Alpha 0.25
+Speed 16
+Mass 0
+BounceFactor 0.5
+	States
+    {
+    Spawn:
+	GLSP ABCDEFGH 3
+	Loop
+	Death:
+	GLSP C 1
+	GLSP C -1
+    Stop
+    }
+}
+
+ACTOR LargeGlassParticle2: LargeGlassParticle1
+{
+XScale -0.8
+BounceFactor 0.6
+}
+
+ACTOR LargeGlassParticle3: LargeGlassParticle1
+{
+XScale -0.3
+YScale 0.3
+BounceFactor 0.4
+}
+
+
+ACTOR LargeGlassParticle4: LargeGlassParticle1
+{
+Scale 0.4
+BounceFactor 0.3
+}
