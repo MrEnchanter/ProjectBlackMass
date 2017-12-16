@@ -28,7 +28,7 @@ tentacle/raise		dstenup
 //Fountains
 Fountain/Loop	DSWFOUNT
 
-//Stanic Voice
+//Satanic Voice
 THIS_IS_ THIS_IS_
 YOU_CAN_ YOU_CAN_
 YOU_THIN YOU_THIN

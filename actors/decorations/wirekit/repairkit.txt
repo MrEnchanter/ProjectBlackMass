@@ -1,0 +1,18 @@
+actor WireKit : PuzzleItem 19018
+{
+ puzzleitem.number 1
+ inventory.PickupSound "misc/i_pkup"
+ inventory.pickupmessage "It looks like a wire repair kit."
+ inventory.defmaxamount 
+ inventory.icon "WIKTA0"
+ states
+ {
+	Spawn:
+	RKIT A -1
+	stop
+	
+	Pickup:
+	TNT1 A 0 A_GiveInventory ("WireKit")
+	stop
+ }
+}
