@@ -39,3 +39,4 @@
 #include "actors/decorations/glasshards/NJshards.txt"
 #include "actors/decorations/glasshards/sargeshards.txt"
 #include "actors/decorations/wirekit/repairkit.txt"
+#include "actors/decorations/portal/portal.txt"
